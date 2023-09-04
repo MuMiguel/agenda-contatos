@@ -16,7 +16,7 @@ function adicionaLinhas () {
     const inputTeleContato = document.getElementById('telContato');
 
     if(nomes.includes(inputNomeContato.value)) {
-        alert(`O contato "${inputNomeContato.value}" já foi inserido`);
+        alert(`O contato "${inputNomeContato.value}" já foi inserido à sua agenda`);
     }else {
         let linha = '<tr>';
         linha += `<td>${inputNomeContato.value}</td>`;
